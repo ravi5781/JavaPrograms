@@ -1,11 +1,7 @@
 package Day18;
 
-
-
 public class Fibonacci_series_recursion {
-
     public static void main(String[] args) {
-
         int num1=0;
         int num2=1;
         int n=8;

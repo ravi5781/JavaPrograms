@@ -1,6 +1,6 @@
 package Day22;
 import java.util.Arrays;
-public class Merge_Array_1st_asc_2nd_desc {
+public class Merge_Array_ASC_sort_1st_asc_2nd_desc {
     public static int[] merge(int[] arr1, int[] arr2, int[] res){
         int i=0;
         int j= arr2.length-1;

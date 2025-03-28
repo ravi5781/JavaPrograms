@@ -8,7 +8,6 @@ public class Merge_Sort_Alternative_Array {
         int j=0;
         int k=0;
         while(i<arr1.length && j<arr2.length){
-
                 res[k]=arr1[i];
                 i++;
                 k++;
@@ -16,7 +15,6 @@ public class Merge_Sort_Alternative_Array {
                 res[k]=arr2[j];
                 j++;
                 k++;
-
         }
 
         while(i<arr1.length){

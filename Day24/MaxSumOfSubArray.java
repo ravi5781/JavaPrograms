@@ -22,7 +22,6 @@ public class MaxSumOfSubArray {
         }
         for(int i=start; i<=end;i++){
             System.out.print(arr[i]+" ,");
-
         }
         System.out.println();
         return max;

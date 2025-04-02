@@ -1,6 +1,6 @@
 package Stringss;
 
-public class _5vVowelAndConsonentCount {
+public class _5VowelAndConsonentCount {
     public static void main(String[] args) {
         String s="Ravi kIraN";
         String s1=s.toLowerCase();

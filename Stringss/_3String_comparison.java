@@ -24,7 +24,5 @@ public class _3String_comparison {
         System.out.println(s2.equals(s3));
         System.out.println(s3.equals(s1));
 
-
-
     }
 }

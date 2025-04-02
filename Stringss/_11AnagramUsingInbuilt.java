@@ -28,6 +28,5 @@ public class _11AnagramUsingInbuilt {
         else{
             System.out.println("it is not anagram");
         }
-
     }
 }

@@ -1,6 +1,6 @@
 package Day20;
 
-public class _3BinarySearch_Descending {
+public class _12BinarySearch_Descending {
 
     public static int binary_search_desc(int[] arr, int key){
         int low=0;

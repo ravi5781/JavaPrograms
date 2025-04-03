@@ -1,6 +1,6 @@
 package Day19Arrays;
 
-public class AdditionofOddNumbers {
+public class _6AdditionofOddNumbers {
     public static void main(String[] args) {
         int count=0;
         float sum=0;

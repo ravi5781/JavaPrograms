@@ -18,10 +18,14 @@ public class _11AnagramUsingInbuilt {
 
         Arrays.sort(arr1);
         Arrays.sort(arr2);
+
         System.out.println();
+
         System.out.println(Arrays.toString(arr1));
         System.out.println(Arrays.toString(arr2));
+
         System.out.println();
+
         if(Arrays.equals(arr1,arr2)){
             System.out.println("it is Anagram");
         }

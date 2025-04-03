@@ -14,7 +14,8 @@ public class _5VowelAndConsonentCount {
 
             if(ch=='a'|| ch=='e'|| ch=='i'|| ch=='o'|| ch=='u'){
                 v_count++;
-            } else if (ch==' ') {
+            }
+            else if (ch==' ') {
                 s_count++;
             }
             else {

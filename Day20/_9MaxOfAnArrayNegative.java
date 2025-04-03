@@ -1,9 +1,9 @@
 package Day20;
 
-public class MaxOfAnArray {
+public class _9MaxOfAnArrayNegative {
     public static void main(String[] args) {
-        int[] arr={12,44,92,7,18,45};
-        int max=0;
+        int[] arr={-7,-2,-4,-6,-9};
+        int max=arr[0];
         for(int i=0;i<arr.length;i++){
             if(arr[i]>max){
                 max=arr[i];

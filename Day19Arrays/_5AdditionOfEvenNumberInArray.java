@@ -1,6 +1,6 @@
 package Day19Arrays;
 
-public class AdditionOfEvenNumberInArray {
+public class _5AdditionOfEvenNumberInArray {
     public static void main(String[] args) {
         int count=0;
         float sum=0;
@@ -11,6 +11,7 @@ public class AdditionOfEvenNumberInArray {
                 count++;
             }
         }
-        System.out.println("Addition of even numbers in a given array "+sum/count);
+        System.out.println(" Addition of even numbers in a given array "+sum);
+        System.out.println(" avg Addition of even numbers in a given array "+sum/count);
     }
 }

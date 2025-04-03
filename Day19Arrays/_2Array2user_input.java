@@ -3,7 +3,7 @@ package Day19Arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Array2user_input {
+public class _2Array2user_input {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

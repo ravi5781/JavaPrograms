@@ -1,6 +1,6 @@
 package Day20;
 
-public class BinarySearch {
+public class _2BinarySearch {
     public static int binary_search(int []arr,int key){
         int low=0;
         int high= arr.length-1;

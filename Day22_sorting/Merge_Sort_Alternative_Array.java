@@ -1,4 +1,4 @@
-package Day22;
+package Day22_sorting;
 
 import java.util.Arrays;
 

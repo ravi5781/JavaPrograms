@@ -1,17 +1,16 @@
-package Day22;
+package Day22_sorting;
 
 import java.util.Arrays;
 
-public class Merge_Sort {
-
+public class Merge_Array_Desc_sort_1stAsc_2ndDesc {
     public static int[] merge(int[] arr1, int[] arr2, int[] res){
-        int i=0;
+        int i=arr1.length-1;
         int j=0;
         int k=0;
-        while(i<arr1.length && j<arr2.length){
-            if(arr1[i]<arr2[j]){
+        while(i>=0 && j< arr2.length){
+            if(arr1[i]>arr2[j]){
                 res[k]=arr1[i];
-                i++;
+                i--;
                 k++;
             }
             else{
@@ -20,13 +19,12 @@ public class Merge_Sort {
                 k++;
             }
         }
-
-        while(i<arr1.length){
+        while(i>=0){
             res[k]=arr1[i];
-            i++;
+            i--;
             k++;
         }
-        while(j<arr2.length){
+        while(j< arr2.length){
             res[k]=arr2[j];
             j++;
             k++;
@@ -36,7 +34,7 @@ public class Merge_Sort {
 
     public static void main(String[] args) {
         int[] arr1={2,4,8};
-        int[] arr2={1,5,9,11,13};
+        int[] arr2={20,10,9,7,6,5,3};
         int[] res=new int[arr1.length+arr2.length];
         System.out.println("before merging two arrays");
         System.out.println(Arrays.toString(arr1));
@@ -44,6 +42,5 @@ public class Merge_Sort {
         System.out.println("after merging two array");
         int[] merged=merge(arr1,arr2,res);
         System.out.println(Arrays.toString(merged));
-
     }
 }

@@ -1,32 +1,30 @@
-package Day22;
-
+package Day22_sorting;
 import java.util.Arrays;
-
-public class Merge_Array_Desc_sort_1stAsc_2ndDesc {
+public class Merge_Array_ASC_sort_1st_asc_2nd_desc {
     public static int[] merge(int[] arr1, int[] arr2, int[] res){
-        int i=arr1.length-1;
-        int j=0;
+        int i=0;
+        int j= arr2.length-1;
         int k=0;
-        while(i>=0 && j< arr2.length){
-            if(arr1[i]>arr2[j]){
+        while(i<arr1.length && j>=0){
+            if(arr1[i]<arr2[j]){
                 res[k]=arr1[i];
-                i--;
+                i++;
                 k++;
             }
             else{
                 res[k]=arr2[j];
-                j++;
+                j--;
                 k++;
             }
         }
-        while(i>=0){
+        while(i<arr1.length){
             res[k]=arr1[i];
-            i--;
+            i++;
             k++;
         }
-        while(j< arr2.length){
+        while(j>=0){
             res[k]=arr2[j];
-            j++;
+            j--;
             k++;
         }
         return res;

@@ -1,4 +1,4 @@
-package Day23;
+package Day23_merge_sort;
 
 import java.util.Arrays;
 
